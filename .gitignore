@@ -6,5 +6,6 @@
 
 .grunt/
 _SpecRunner.html
+coverage/
 dist/
 node_modules/

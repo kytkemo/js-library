@@ -80,8 +80,14 @@ module.exports = function (grunt) {
             src: 'src/**/*.js',
             options: {
 
-                specs: 'spec/**/*-spec.js'
+                specs: 'spec/**/*-spec.js',
+                template: require('grunt-template-jasmine-istanbul'),
+                templateOptions: {
 
+                    coverage: 'coverage/coverage.json',
+                    report: 'coverage/'
+
+                }
             }
         }
     });
