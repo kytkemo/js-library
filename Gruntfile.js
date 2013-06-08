@@ -10,8 +10,19 @@ module.exports = function (grunt) {
 
             src: {
 
-                files: 'src/**/*.js',
+                files: ['Gruntfile.js', 'src/**/*.js'],
                 tasks: ['jshint:src', 'build'],
+                options: {
+
+                    nospawn: true
+
+                }
+            },
+
+            spec: {
+
+                files: 'spec/**/*.js',
+                tasks: 'jshint:spec',
                 options: {
 
                     nospawn: true
@@ -64,7 +75,7 @@ module.exports = function (grunt) {
                 }
             },
 
-            tests: {
+            spec: {
 
                 src: 'spec/**/*.js',
                 options: {
