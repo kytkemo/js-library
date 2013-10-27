@@ -2,12 +2,12 @@
 
 Structure for a JavaScript library (JavaScript + Node.js + Grunt).
 
-## Install dependencies
+## Install Dependencies
 
-Install Grunt’s command line interface globally if necessary with `npm install -g grunt-cli`. Download development
-dependencies by running `npm install -d`.
+If necessary, install Grunt’s command line interface globally with `npm install -g grunt-cli`. Install development
+dependencies with `npm install -d`.
 
-## Run tests
+## Run Tests
 
 Run tests with `grunt test`.
 
