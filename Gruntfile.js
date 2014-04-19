@@ -10,8 +10,8 @@ module.exports = function (grunt) {
 
             src: {
 
-                files: ['Gruntfile.js', 'src/**/*.js'],
-                tasks: ['jshint:src', 'build'],
+                files: [ 'Gruntfile.js', 'src/**/*.js' ],
+                tasks: [ 'jshint:src', 'build' ],
 
             },
 
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
 
             src: {
 
-                src: ['Gruntfile.js', 'src/**/*.js'],
+                src: [ 'Gruntfile.js', 'src/**/*.js' ],
                 options: {
 
                     jshintrc: 'jshint.json'
@@ -105,7 +105,7 @@ module.exports = function (grunt) {
 
     /* Register tasks */
 
-    grunt.registerTask('test', ['jshint', 'jasmine']);
-    grunt.registerTask('build', ['concat', 'uglify']);
-    grunt.registerTask('default', ['test', 'build']);
+    grunt.registerTask('test', [ 'jshint', 'jasmine' ]);
+    grunt.registerTask('build', [ 'concat', 'uglify' ]);
+    grunt.registerTask('default', [ 'test', 'build' ]);
 }
