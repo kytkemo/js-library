@@ -1,6 +1,6 @@
 {
     "name": "js-library",
-    "version": "1.0.9-SNAPSHOT",
+    "version": "1.0.9",
     "private": true,
 
     "devDependencies": {
