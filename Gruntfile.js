@@ -10,7 +10,7 @@ module.exports = function (grunt) {
 
         clean: {
 
-            build: [ '_SpecRunner.html', 'coverage/', 'dist/' ]
+            build: [ '.grunt/', '_SpecRunner.html', 'coverage/', 'dist/' ]
 
         },
 
