@@ -6,6 +6,12 @@ module.exports = function (grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
+        clean: {
+
+            build: [ 'coverage/', 'dist/' ]
+
+        },
+
         watch: {
 
             src: {
@@ -97,6 +103,7 @@ module.exports = function (grunt) {
 
     /* Load tasks */
 
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
