@@ -19,14 +19,14 @@ module.exports = function (grunt) {
             src: {
 
                 files: [ 'Gruntfile.js', 'src/**/*.js' ],
-                tasks: [ 'jshint:src', 'build' ],
+                tasks: [ 'jshint:src', 'build' ]
 
             },
 
             spec: {
 
                 files: 'spec/**/*.js',
-                tasks: 'jshint:spec',
+                tasks: 'jshint:spec'
 
             }
         },
