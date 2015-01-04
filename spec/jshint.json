@@ -1,25 +1,26 @@
 {
     "asi": true,
-    "boss": true,
+    "bitwise": true,
     "camelcase": true,
     "curly": true,
     "eqeqeq": true,
     "eqnull": true,
-    "expr": true,
+    "forin": true,
+    "freeze": true,
     "immed": true,
     "indent": 4,
+    "jasmine": true,
+    "latedef": true,
     "newcap": true,
+    "noarg": true,
     "node": true,
+    "noempty": true,
+    "nonbsp": true,
+    "nonew": true,
     "quotmark": "single",
+    "singleGroups": true,
+    "strict": true,
     "trailing": true,
     "undef": true,
-    "unused": true,
-
-    "globals": {
-
-        "describe": true,
-        "expect": true,
-        "it": true
-
-    }
+    "unused": true
 }
