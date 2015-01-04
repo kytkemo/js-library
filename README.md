@@ -1,4 +1,5 @@
-# js-library
+js-library
+==========
 
 Structure for a JavaScript library (JavaScript + Node.js + Grunt).
 
