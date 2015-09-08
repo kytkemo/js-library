@@ -86,6 +86,16 @@ module.exports = function (grunt) {
             }
         },
 
+        jscs: {
+
+            src: '**/*.js',
+            options: {
+
+                config: 'jscs.json'
+
+            }
+        },
+
         jasmine: {
 
             src: 'src/**/*.js',
@@ -110,11 +120,12 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-jscs');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
 
     /* Register tasks */
 
-    grunt.registerTask('test', [ 'jshint', 'jasmine' ]);
+    grunt.registerTask('test', [ 'jshint', 'jscs', 'jasmine' ]);
     grunt.registerTask('build', [ 'concat', 'uglify' ]);
     grunt.registerTask('default', [ 'clean', 'test', 'build' ]);
 }
