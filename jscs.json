@@ -6,6 +6,7 @@
     "disallowMultipleSpaces": true,
     "disallowMultipleVarDecl": true,
     "disallowNamedUnassignedFunctions": true,
+    "disallowNestedTernaries": true,
     "disallowNewlineBeforeBlockStatements": true,
     "disallowOperatorBeforeLineBreak": [ "." ],
 
@@ -39,9 +40,12 @@
 
     "disallowSpacesInsideParentheses": true,
     "disallowSpacesInsideParenthesizedExpression": true,
+    "disallowTabs": true,
     "disallowTrailingComma": true,
     "disallowTrailingWhitespace": true,
+    "disallowUnusedParams": true,
     "disallowYodaConditions": true,
+    "requireAlignedMultilineParams": "firstParam",
     "requireAnonymousFunctions": true,
     "requireBlocksOnNewline": true,
     "requireCamelCaseOrUpperCaseIdentifiers": true,
@@ -69,6 +73,7 @@
     "requireParenthesesAroundIIFE": true,
     "requireShorthandArrowFunctions": true,
     "requireSpaceAfterBinaryOperators": true,
+    "requireSpaceAfterComma": true,
     "requireSpaceAfterKeywords": true,
     "requireSpaceAfterLineComment": true,
     "requireSpaceBeforeBinaryOperators": true,
@@ -89,6 +94,13 @@
     "requireSpacesInFunction": {
 
         "beforeOpeningCurlyBrace": true
+
+    },
+
+    "requireSpacesInGenerator": {
+
+        "beforeStar": true,
+        "afterStar": true
 
     },
 
