@@ -4,6 +4,7 @@
   "curly": true,
   "eqeqeq": true,
   "eqnull": true,
+  "esversion": 5,
   "forin": true,
   "freeze": true,
   "futurehostile": true,
