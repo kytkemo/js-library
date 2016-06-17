@@ -59,13 +59,6 @@
   "requirePaddingNewLinesAfterUseStrict": true,
   "requirePaddingNewLinesBeforeExport": true,
   "requirePaddingNewLinesBeforeLineComments": true,
-
-  "requirePaddingNewlinesInBlocks": {
-    "open": true,
-    "close": false,
-    "allExcept": [ "conditionals" ]
-  },
-
   "requireParenthesesAroundIIFE": true,
   "requireShorthandArrowFunctions": true,
   "requireSpaceAfterBinaryOperators": true,
@@ -97,7 +90,7 @@
   "requireSpacesInsideArrayBrackets": "all",
   "requireSpacesInsideObjectBrackets": "all",
   "safeContextKeyword": "self",
-  "validateIndentation": 4,
+  "validateIndentation": 2,
   "validateLineBreaks": "LF",
   "validateParameterSeparator": ", ",
   "validateQuoteMarks": "'"
