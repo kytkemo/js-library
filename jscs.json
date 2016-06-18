@@ -1,10 +1,13 @@
 {
   "disallowEmptyBlocks": true,
-  "disallowMixedSpacesAndTabs": true,
   "disallowMultipleLineBreaks": true,
   "disallowMultipleLineStrings": true,
   "disallowMultipleSpaces": true,
-  "disallowMultipleVarDecl": true,
+
+  "disallowMultipleVarDecl": {
+    "allExcept": [ "undefined" ]
+  },
+
   "disallowNamedUnassignedFunctions": true,
   "disallowNestedTernaries": true,
   "disallowNewlineBeforeBlockStatements": true,
@@ -15,7 +18,6 @@
     "close": true
   },
 
-  "disallowParenthesesAroundArrowParam": true,
   "disallowQuotedKeysInObjects": true,
   "disallowSpaceAfterObjectKeys": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
@@ -34,11 +36,11 @@
 
   "disallowSpacesInsideParentheses": true,
   "disallowSpacesInsideParenthesizedExpression": true,
-  "disallowSpacesInsideTemplateStringPlaceholders": true,
   "disallowTabs": true,
   "disallowTrailingComma": true,
   "disallowTrailingWhitespace": true,
   "disallowUnusedParams": true,
+  "disallowUnusedVariables": true,
   "disallowYodaConditions": true,
   "requireAlignedMultilineParams": "firstParam",
   "requireAnonymousFunctions": true,
@@ -51,16 +53,18 @@
   "requireCurlyBraces": true,
   "requireDotNotation": true,
   "requireEarlyReturn": true,
-  "requireImportAlphabetized": true,
   "requireLineBreakAfterVariableAssignment": true,
   "requireLineFeedAtFileEnd": true,
-  "requireNumericLiterals": true,
+
+  "requireObjectKeysOnNewLine": {
+    "allExcept": [ "sameLine" ]
+  },
+
   "requireOperatorBeforeLineBreak": true,
   "requirePaddingNewLinesAfterUseStrict": true,
   "requirePaddingNewLinesBeforeExport": true,
   "requirePaddingNewLinesBeforeLineComments": true,
   "requireParenthesesAroundIIFE": true,
-  "requireShorthandArrowFunctions": true,
   "requireSpaceAfterBinaryOperators": true,
   "requireSpaceAfterComma": true,
   "requireSpaceAfterKeywords": true,
@@ -82,13 +86,9 @@
     "beforeOpeningCurlyBrace": true
   },
 
-  "requireSpacesInGenerator": {
-    "beforeStar": true,
-    "afterStar": true
-  },
-
   "requireSpacesInsideArrayBrackets": "all",
   "requireSpacesInsideObjectBrackets": "all",
+  "requireUseStrict": true,
   "safeContextKeyword": "self",
   "validateIndentation": 2,
   "validateLineBreaks": "LF",
