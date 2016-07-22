@@ -1,7 +1,7 @@
 js-library
 ==========
 
-Structure for a JavaScript library (JavaScript 5.1 + Node.js 6.2.1 + Grunt).
+Structure for a JavaScript library (JavaScript 5.1 + Node.js 6.3.0 + Grunt).
 
 ## Install Dependencies
 
